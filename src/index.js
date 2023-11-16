@@ -41,7 +41,7 @@ const convertToGrayScales = (context, width, height) => {
     return grayScales;
 };
 
-const MAXIMUM_WIDTH = 45;
+const MAXIMUM_WIDTH = 16;
 const MAXIMUM_HEIGHT = 100;
 
 const clampDimensions = (width, height) => {
