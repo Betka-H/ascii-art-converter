@@ -85,7 +85,7 @@ fileInput.onchange = (e) => {
     reader.readAsDataURL(file);
 };
 
-const grayRamp = '$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/|()1{}[]?-_+~<>i!lI;:,"^`\'. ';
+const grayRamp ='=ěščřžýáíé¨\`qwertzuiopasdfghjklů_yxcvbnm,.-+23456789%ˇ'\§\":?!/ĚŠČŘŽÝÁÍÉQWERTZUIOPASDFGHJKLYXCVBNM';
 const rampLength = grayRamp.length;
 
 const getCharacterForGrayScale = grayScale => grayRamp[Math.ceil((rampLength - 1) * grayScale / 255)];
