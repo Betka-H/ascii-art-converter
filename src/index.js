@@ -41,7 +41,7 @@ const convertToGrayScales = (context, width, height) => {
     return grayScales;
 };
 
-const MAXIMUM_WIDTH = 16;
+const MAXIMUM_WIDTH = 42;
 const MAXIMUM_HEIGHT = 100;
 
 const clampDimensions = (width, height) => {
@@ -85,7 +85,7 @@ fileInput.onchange = (e) => {
     reader.readAsDataURL(file);
 };
 
-const grayRamp ='=ěščřžýáíé¨`qwertzuiopasdfghjklů_yxcvbnm,.-+23456789%ˇ\'§":?!/ĚŠČŘŽÝÁÍÉQWERTZUIOPASDFGHJKLYXCVBNM';
+const grayRamp ='G%Xůo+=:-. ';
 const rampLength = grayRamp.length;
 
 const getCharacterForGrayScale = grayScale => grayRamp[Math.ceil((rampLength - 1) * grayScale / 255)];
