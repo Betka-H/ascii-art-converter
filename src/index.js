@@ -41,7 +41,7 @@ const convertToGrayScales = (context, width, height) => {
     return grayScales;
 };
 
-const MAXIMUM_WIDTH = 72;
+const MAXIMUM_WIDTH = 52;
 const MAXIMUM_HEIGHT = 125;
 const clampDimensions = (width, height) => {
     const rectifiedWidth = Math.floor(getFontRatio() * width);
